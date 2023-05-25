@@ -18,10 +18,17 @@ SIDEBAR
 }
 
 .nav-side-bar > .logo-small > img {
-    width: 4.0625rem;
+    width: 100%;
     padding: .9375rem;
     display: none;
 }
+
+.home-nav > ul > li > img {
+    width: 2.5rem;
+    padding:0.9375rem .3125rem .3125rem .9375rem;
+    display: inline-block;
+}
+
 
 .hidden-nav {
     display: none;
@@ -187,6 +194,7 @@ SIDEBAR
     display: block;
 }
 
+
 /* 
 MAIN 
 */
@@ -222,7 +230,10 @@ DEBUG
     border: 2px solid white;
 } */
 
-.debug 
+.debug .footer-container > div{
+    border: 2px dashed rgb(209, 61, 61);
+    
+}
 
 .debug 
 
