@@ -1,24 +1,4 @@
 /* 
-TIPHOGRAPHY SYSTEM
--COLORS
-
-*/
-
-/* 
-RESET 
-*/
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* 
-GENERAL 
-*/
-
-/* 
 HEADER 
 */
 
@@ -31,5 +11,85 @@ FOOTER
 */
 
 /* 
+RESPONSIVE
+*/
+
+/* Tablet: fino a 1100px */
+@media screen and (max-widt: 1100px;) {
+    
+/* 
+HEADER 
+*/
+
+/* 
+MAIN 
+*/
+
+/* 
+FOOTER 
+*/
+
+}
+
+
+
+/* Mobile normale: fino a 700px */
+@media screen and (max-widt: 700px;) {
+    
+/* 
+HEADER 
+*/
+
+/* 
+MAIN 
+*/
+
+/* 
+FOOTER 
+*/
+
+}
+
+
+/* Mobile piccolo: fino a 600px */
+@media screen and (max-widt: 600px;) {
+    
+/* 
+HEADER 
+*/
+
+/* 
+MAIN 
+*/
+
+/* 
+FOOTER 
+*/
+
+}
+
+
+
+/* 
 DEBUG 
 */
+
+.debug 
+
+.debug
+
+.debug 
+
+.debug
+
+.debug 
+
+.debug
+
+.debug 
+
+.debug
+
+.debug 
+
+.debug

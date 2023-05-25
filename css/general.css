@@ -1,0 +1,40 @@
+/* 
+RESET 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+GENERAL 
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* 
+TIPHOGRAPHY SYSTEM
+-COLORS
+*/
+
+:root {
+    --green-bar: #9AE330;
+    --main-bg: #141922;
+    --gary-text: #777A7F;
+}
+
+.grey-text {
+    color: #777A7F;
+}
+
+.main-bg {
+    background-color: #141922;
+}
+
+.green-bar {
+    color: #9AE330;
+}
