@@ -77,13 +77,18 @@ TIPHOGRAPHY SYSTEM
     --black-sidebar-bg: black;
     --main-bg: #141922;
     --footer-bg: #282828;
-    --gary-text: #777A7F;
+    --grey-text: #777A7F;
+    --grey-bg: #777A7F;
     --green-bar: #9AE330;
 
 }
 
 .grey-text {
     color: #777A7F;
+}
+
+.grey-bg {
+    background-color: #777A7F;
 }
 
 .main-bg {
