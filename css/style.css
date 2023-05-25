@@ -28,22 +28,34 @@ SIDEBAR
 }
 
 .hidden-nav > div {
-    padding: 10px 15px;
+    padding: .625rem .9375rem;
     text-align: center;
 }
 
+.playlist-nav ul li {
+    vertical-align: middle;
+}
 
+.add {
+    display: inline-block;
+    padding: .3125rem .625rem;
+    background-color: #777A7F;
+    vertical-align: middle;
+    margin-right: .3125rem;
+}
 
 
 /* 
 MAIN 
 */
 
+/* --SECTION 1-- */
+
 main > header.main-header {
     background-color: rgba(8, 10, 14, 0.8);
     text-align: end;
-    line-height: 60px;
-    padding-right: 10px;
+    line-height: 3.75rem;
+    padding-right: .625rem;
 }
 
 .category-container {
@@ -64,6 +76,25 @@ main > header.main-header {
     font-size: 5px;
 }
 
+/* --SECTION 2-- */
+
+.album-pic {
+    width: 100%;
+}
+
+.card {
+    width: calc((100% / 6) - 10px);
+    margin: 5px;
+}
+
+/* --SECTION 3-- */
+/* --SECTION 4-- */
+
+
+.circle-pic > img{
+    border-radius: 50%;
+}
+
 /* 
 FOOTER 
 */
@@ -81,9 +112,20 @@ SIDEBAR
 /* 
 MAIN 
 */
+/* --SECTION 1-- */
+
 .nav-category-music ul li {
     width: calc(100% / 6);
 }
+
+/* --SECTION 2-- */
+
+.card {
+    width: calc((100% / 4) - 10px);
+    margin: 5px;
+}
+/* --SECTION 3-- */
+/* --SECTION 4-- */
 
 /* 
 FOOTER 
@@ -104,9 +146,20 @@ SIDEBAR
 MAIN 
 */
 
+/* --SECTION 1-- */
 .nav-category-music ul li {
     width: calc(100% / 3);
 }
+
+/* --SECTION 2-- */
+
+.card {
+    width: calc((100% / 2) - 10px);
+    margin: 5px;
+}
+/* --SECTION 3-- */
+/* --SECTION 4-- */
+
 
 /* 
 FOOTER 
@@ -123,7 +176,7 @@ SIDEBAR
 */
 
 .left-side-container {
-    width: 80px;
+    width: 5rem;
 }
 
 .nav-side-bar > .logo > img, .home-nav, .playlist-nav {
@@ -141,6 +194,11 @@ MAIN
 .nav-category-music ul li {
     width: calc(100% / 5);
 }
+
+/* --SECTION 1-- */
+/* --SECTION 2-- */
+/* --SECTION 3-- */
+/* --SECTION 4-- */
 
 /* 
 FOOTER 
