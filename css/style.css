@@ -1,6 +1,15 @@
 /* 
+SIDEBAR
+*/
+
+
+/* 
 HEADER 
 */
+
+header {
+    
+}
 
 /* 
 MAIN 
@@ -18,6 +27,10 @@ RESPONSIVE
 @media screen and (max-widt: 1100px;) {
     
 /* 
+SIDEBAR
+*/
+
+/* 
 HEADER 
 */
 
@@ -34,8 +47,12 @@ FOOTER
 
 
 /* Mobile normale: fino a 700px */
-@media screen and (max-widt: 700px;) {
+@media screen and (max-widt: 7700px;) {
     
+/* 
+SIDEBAR
+*/
+
 /* 
 HEADER 
 */
@@ -54,6 +71,10 @@ FOOTER
 /* Mobile piccolo: fino a 600px */
 @media screen and (max-widt: 600px;) {
     
+/* 
+SIDEBAR
+*/
+
 /* 
 HEADER 
 */
@@ -74,19 +95,27 @@ FOOTER
 DEBUG 
 */
 
-.debug 
 
-.debug
+.debug .left-side-container {
+    background-color: rgb(15, 198, 107);
+}
 
-.debug 
+.debug .right-main-container {
+    background-color: cadetblue;
+}
 
-.debug
+.debug main {
 
-.debug 
+}
 
-.debug
+.debug main > header.main-header {
+    background-color: rgba(165, 42, 42, 0.38);
+}
 
-.debug 
+.debug footer {
+    background-color: blueviolet;
+}
+
 
 .debug
 

@@ -14,8 +14,42 @@ GENERAL
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
+.big-container {
+    display: flex;
+}
+
+.left-side-container {
+    width: 15.625rem;
+    height: 100vh;
+}
+
+.right-main-container {
+    width: 100%;
+    height: 100vh;
+}
+
+
+main {
+    overflow: auto;
+    height: calc(100% - 100px);
+}
+
+header.main-header {
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+
+.debug footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6.25rem;
+}
 /* 
 TIPHOGRAPHY SYSTEM
 -COLORS
@@ -25,6 +59,7 @@ TIPHOGRAPHY SYSTEM
     --green-bar: #9AE330;
     --main-bg: #141922;
     --gary-text: #777A7F;
+    --black-sidebar-bg: black;
 }
 
 .grey-text {
@@ -37,4 +72,8 @@ TIPHOGRAPHY SYSTEM
 
 .green-bar {
     color: #9AE330;
+}
+
+.sidebar-bg {
+    background-color: black;
 }
