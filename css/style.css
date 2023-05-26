@@ -17,6 +17,10 @@ SIDEBAR
     width: 7.5rem;
 }
 
+.nav-side-bar > .logo {
+    padding-bottom: 1.25rem;
+}
+
 .nav-side-bar > .logo-small > img {
     width: 1.875rem;
     margin: 0 auto;
@@ -29,8 +33,14 @@ SIDEBAR
 }
 
 .home-nav > ul > li > img {
-    width: 1.5rem;
+    width: 2rem;
     display: inline-block;
+    vertical-align: middle;
+    padding-right: .3125rem;
+}
+
+.home-nav > ul > li {
+    padding-bottom: .3125rem;
 }
 
 
@@ -44,8 +54,13 @@ SIDEBAR
     padding-bottom: 10px;
 }
 
+.playlist-nav h4 {
+    padding: .625rem 0;
+}
+
 .playlist-nav ul li {
     vertical-align: middle;
+    padding: .3125rem 0;
 }
 
 .add {
@@ -94,12 +109,37 @@ MAIN
 main > header.main-header {
     background-color: rgba(8, 10, 14, 0.8);
     text-align: end;
-    line-height: 3.75rem;
-    padding-right: .625rem;
+    padding: .9375rem;
+    line-height: .9375rem;
 }
 
+main header > button {
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    border-radius: 20px;
+    padding: .3125rem .625rem;
+    color: white;
+}
+
+main > header > button > a {
+    border-radius: 1.25rem;
+    font-size: 0.6em;
+    vertical-align: middle;
+}
+
+main header > button:hover {
+    scale: 1.2;
+    cursor: pointer;
+}
+
+/* main > header > a:hover{
+    padding: .625rem .9375rem;
+    font-size: 0.7em;
+} */
+
 .category-container {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -112,11 +152,37 @@ main > header.main-header {
 .nav-category-music ul li {
     list-style: none;
     width: calc(100% / 7);
-    margin: 10px 5px;
-    font-size: 5px;
+    margin: .625rem .3125rem .125rem;
+    font-size: 0.5em;
+    text-align: center;
 }
 
+.nav-category-music ul li a {
+    color: #777A7F;
+    font-weight:bold ;
+}
+
+li.category-music a > div > hr {
+    width: 1.25rem;
+    margin: .3125rem auto;
+    border-color: #9AE330;
+    visibility: hidden;
+}
+
+.nav-category-music ul li.category-music a:hover {
+    color: white;
+}
+
+.nav-category-music ul li.category-music a:hover  div > hr{
+    visibility: visible;
+}
+
+
 /* --SECTION 2-- */
+
+section > div.container > h2 {
+    margin: 1.875rem 0;
+}
 
 .album-pic {
     width: 100%;
@@ -269,10 +335,7 @@ DEBUG
 */
 
 
-.debug .nav-category-music ul li {
-    border: 2px dashed rgb(209, 61, 61);
-    list-style: none;
-}
+.debug 
 
 /* .debug .category-container {
     border: 2px solid white;
@@ -283,9 +346,22 @@ DEBUG
     
 }
 
-.debug 
+.debug .category-list > ul > li  {
+    margin: 0 auto;
+}
+/* .debug .home-nav ul li {
+    padding-left: 15px;
+} */
 
-.debug 
+/* .debug .home-nav ul li {
+    border-left: 2px solid greenyellow;
+}
+
+.debug .left-side-container {
+    width: 15.625rem;
+    height: 100vh;
+    padding: 15px 15px 15px 0;
+} */
 
 .debug
 
