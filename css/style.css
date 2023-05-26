@@ -375,12 +375,32 @@ FOOTER
     border-radius: 10px;
 }
 
-.green-bar {
+.grey-bar .green-bar {
     width: 30%;
     height: 3px;
     background-color: #9AE330;
     border-radius: 10px;
     display: none;
+    position: relative;
+}
+
+.bottom-center-footer:hover .lighter-bar{
+    display: none;
+}
+
+.bottom-center-footer:hover .green-bar{
+    display: block;
+}
+
+.pallina {
+    width: 12px;
+    height: 12px;
+    background-color: lightgray;
+    line-height: 3px;
+    position: absolute;
+    border-radius: 50%;
+    top: -5px;
+    left: 140px;
 }
 
 
