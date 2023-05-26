@@ -17,7 +17,7 @@ body {
     color: white;
 }
 
-.big-container, .left-footer, .inside-left-footer {
+.big-container {
     display: flex;
 }
 

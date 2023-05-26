@@ -318,10 +318,72 @@ section > div.container > div > h2 {
 FOOTER 
 */
 
+.left-footer, .inside-left-footer {
+    display: flex;
+    align-items: center;
+}
+
 .pic-footer {
-    width: 50px;
+    width: 60px;
     padding-left: 10px;
 }
+
+.artist-footer {
+    padding: 0 .9375rem;
+}
+
+.artist-footer > p {
+    font-size: 0.8em;
+    color: #777A7F;
+}
+
+.functions > span {
+    padding: 0 5px ;
+    color: #777A7F;
+}
+
+.functions > span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* --center footer-- */
+
+.center-footer {
+    width: 500px;
+    text-align: center;
+}
+
+.bottom-center-footer {
+    padding: 15px 0;
+}
+
+.grey-bar {
+    width: 500px;
+    height: 3px;
+    background-color:#777A7F;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.lighter-bar {
+    width: 30%;
+    height: 3px;
+    background-color: #abb1ba;
+    border-radius: 10px;
+}
+
+.green-bar {
+    width: 30%;
+    height: 3px;
+    background-color: #9AE330;
+    border-radius: 10px;
+    display: none;
+}
+
+
 
 /* 
 RESPONSIVE
