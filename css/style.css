@@ -178,20 +178,62 @@ li.category-music a > div > hr {
 }
 
 
+
 /* --SECTION 2-- */
 
-section > div.container > h2 {
-    margin: 1.875rem 0;
+section > div.container > .title-container {
+    margin: 2.5rem 0 1.25rem ;
+}
+
+section > div.container > div > h2 {
+    padding-bottom: 5px;
 }
 
 .album-pic {
     width: 100%;
+    height: auto;
+    position: relative;
 }
 
 .card {
     width: calc((100% / 6) - 10px);
     margin: 5px;
 }
+
+.card div:last-child {
+    text-align: center;
+}
+
+.card h4 {
+    padding: .9375rem 0 .625rem;
+}
+
+.subtitle {
+    color: #777A7F;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    border: .25rem solid white;
+    padding: .625rem .625rem .625rem 15px;
+    border-radius: 50%;
+}
+
+.play:active {
+    color: #9AE330;
+}
+
+.album-pic:hover .play {
+    display: block;
+    cursor: pointer;
+}
+
 
 /* --SECTION 3-- */
 /* --SECTION 4-- */
