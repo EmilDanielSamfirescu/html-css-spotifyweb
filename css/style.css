@@ -318,7 +318,7 @@ section > div.container > div > h2 {
 FOOTER 
 */
 
-.left-footer, .inside-left-footer {
+.left-footer, .inside-left-footer, .right-footer {
     display: flex;
     align-items: center;
 }
@@ -330,11 +330,17 @@ FOOTER
 
 .artist-footer {
     padding: 0 .9375rem;
+    font-weight: bold;
 }
 
 .artist-footer > p {
-    font-size: 0.8em;
+    font-size: 0.6em;
     color: #777A7F;
+}
+
+.artist-footer > p:hover {
+    text-decoration: underline;
+    color: white;
 }
 
 .functions > span {
@@ -352,8 +358,7 @@ FOOTER
 /* --center footer-- */
 
 .center-footer {
-    width: 500px;
-    text-align: center;
+    width: 30vw;
 }
 
 .bottom-center-footer {
@@ -361,7 +366,7 @@ FOOTER
 }
 
 .grey-bar {
-    width: 500px;
+    width: 100%;
     height: 3px;
     background-color:#777A7F;
     margin: 0 auto;
@@ -400,9 +405,93 @@ FOOTER
     position: absolute;
     border-radius: 50%;
     top: -5px;
-    left: 140px;
+    left: 98%;
 }
 
+.top-center-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.top-center-footer > button {
+    color: white;
+    background-color: #282828;
+    border-style: none;
+    padding: 5px;
+    font-size: 1.3em;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.top-center-footer > button:hover {
+    scale: 1.2;
+}
+
+/* --right-footer-- */
+
+.right-footer {
+    padding-right: 10px;
+    width: 10vw;
+}
+
+.right-footer > button {
+    color: white;
+    background-color: #282828;
+    border-style: none;
+    padding: 5px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.right-footer > button:hover {
+    scale: 1.2;
+}
+
+.volume-bar-righ-footer {
+    padding: 10px 0;
+}
+
+.volume-bar-righ-footer .right-grey-bar {
+    width: 120px;
+    height: 3px;
+    background-color:#777A7F;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.volume-bar-righ-footer .right-lighter-bar {
+    width: 30%;
+    height: 3px;
+    background-color: #abb1ba;
+    border-radius: 10px;
+}
+
+.volume-bar-righ-footer .right-green-bar {
+    width: 30%;
+    height: 3px;
+    background-color: #9AE330;
+    border-radius: 10px;
+    display: none;
+    position: relative;
+}
+
+.volume-bar-righ-footer:hover .right-lighter-bar{
+    display: none;
+}
+
+.volume-bar-righ-footer:hover .right-green-bar{
+    display: block;
+}
+
+.right-pallina {
+    width: 10px;
+    height: 10px;
+    background-color: lightgray;
+    position: absolute;
+    top: -3px;
+    left: 30px;
+    border-radius: 50%;
+}
 
 
 /* 
