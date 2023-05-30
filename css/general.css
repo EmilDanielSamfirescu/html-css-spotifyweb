@@ -50,6 +50,7 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     text-align: end;
+    z-index: 1;
 }
 
 .main-section {
